@@ -1,0 +1,96 @@
+.preview {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  content: '';
+  flex-direction: column;
+  position: relative;
+  background-color: transparent;
+  background: url('../../media/preview-back.jpeg');
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+}
+
+.preview__image-container {
+  position: relative;
+  width: 300px;
+  height: 50vh;
+  margin: 100px auto 0;
+}
+
+.preview__image {
+  position: absolute;
+  -webkit-box-shadow: 4px 4px 51px 35px rgba(0, 0, 0, 0.38);
+  -moz-box-shadow: 4px 4px 51px 35px rgba(0, 0, 0, 0.38);
+  box-shadow: 4px 4px 51px 35px rgba(0, 0, 0, 0.38);
+  width: 160px;
+  border-radius: 20px;
+}
+
+.preview__image_position_left {
+  left: -19px;
+  top: 13px;
+  z-index: 3;
+  transform: rotate(15deg);
+}
+
+.preview__image_position_center {
+  left: 70px;
+  top: 97px;
+  z-index: 2;
+  transform: rotate(-15deg);
+}
+
+.preview__image_position_right {
+  left: 153px;
+  top: 197px;
+  z-index: 1;
+  transform: rotate(15deg);
+}
+
+.preview__text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.preview__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 125%;
+  color: #EFF1F3;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+.preview__subtitle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 150%;
+  text-align: left;
+  color: #989898;
+  padding: 26px auto;
+  margin: 0;
+}
+
+.preview__button {
+  background: radial-gradient(82.23% 108.11% at 101.39% 101.07%, #322596 0%, #5a2594 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  border-radius: 32px;
+  margin-top: 52px;
+  width: 90%;
+  height: 72px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 125%;
+  text-align: center;
+  color: #FFFFFF;
+  border: none;
+}

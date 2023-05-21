@@ -1,0 +1,9 @@
+.loader {
+  margin: auto;
+  background-image: url("../../media/puff.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  display: block;
+}
