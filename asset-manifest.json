@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.a0dd2c54.css",
-    "main.js": "/static/js/main.1f77b63f.js",
-    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
-    "static/media/qr-code-table-min.jpg": "/static/media/qr-code-table-min.e281dcc169c1bfb53035.jpg",
-    "static/media/computer.jpg": "/static/media/computer.28cd54515220edac0a8f.jpg",
-    "static/media/id.jpg": "/static/media/id.ee421ef083e2430fa892.jpg",
-    "service-worker.js": "/service-worker.js",
-    "static/media/preview-back.jpeg": "/static/media/preview-back.a9dc82b0b7881d89f105.jpeg",
-    "index.html": "/index.html",
-    "main.a0dd2c54.css.map": "/static/css/main.a0dd2c54.css.map",
-    "main.1f77b63f.js.map": "/static/js/main.1f77b63f.js.map",
-    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/ecoptica-id-frontend/static/css/main.9134b399.css",
+    "main.js": "/ecoptica-id-frontend/static/js/main.51549b8e.js",
+    "static/js/787.28cb0dcd.chunk.js": "/ecoptica-id-frontend/static/js/787.28cb0dcd.chunk.js",
+    "static/media/qr-code-table-min.jpg": "/ecoptica-id-frontend/static/media/qr-code-table-min.e281dcc169c1bfb53035.jpg",
+    "static/media/computer.jpg": "/ecoptica-id-frontend/static/media/computer.28cd54515220edac0a8f.jpg",
+    "static/media/id.jpg": "/ecoptica-id-frontend/static/media/id.ee421ef083e2430fa892.jpg",
+    "service-worker.js": "/ecoptica-id-frontend/service-worker.js",
+    "static/media/preview-back.jpeg": "/ecoptica-id-frontend/static/media/preview-back.a9dc82b0b7881d89f105.jpeg",
+    "index.html": "/ecoptica-id-frontend/index.html",
+    "main.9134b399.css.map": "/ecoptica-id-frontend/static/css/main.9134b399.css.map",
+    "main.51549b8e.js.map": "/ecoptica-id-frontend/static/js/main.51549b8e.js.map",
+    "787.28cb0dcd.chunk.js.map": "/ecoptica-id-frontend/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a0dd2c54.css",
-    "static/js/main.1f77b63f.js"
+    "static/css/main.9134b399.css",
+    "static/js/main.51549b8e.js"
   ]
 }
