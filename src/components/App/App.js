@@ -3,6 +3,9 @@ import { Helmet } from "react-helmet";
 import { useState } from "react";
 import Preview from "../Preview/Preview";
 import "./App.css";
+import Main from "../Main/Main";
+import Home from "../Home/Home";
+import Shop from "../Shop/Shop";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -16,7 +19,11 @@ function App() {
           content="black-translucent"
         ></meta>
       </Helmet>
-      <Preview loading={loading} setLoading={setLoading} />
+      {/* <Preview loading={loading} setLoading={setLoading} /> */}
+      {/* <Main>
+        <Home />
+      </Main> */}
+      <Shop />
     </div>
   );
 }

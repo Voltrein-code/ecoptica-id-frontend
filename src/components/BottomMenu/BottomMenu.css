@@ -1,0 +1,41 @@
+.nav {
+  margin: 0;
+  width: 100%;
+  padding: 27px 0;
+}
+
+.nav__links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.nav__link {
+  width: 36px;
+  height: 36px;
+  background-color: transparent;
+  border: none;
+  background-position: center;
+  background-size: cover;
+}
+
+.nav__link_type_home {
+  background-image: url("../../media/home-icon.svg");
+}
+
+.nav__link_type_metrics {
+  background-image: url("../../media/metrics-icon.svg");
+}
+
+.nav__link_type_shop {
+  background-image: url("../../media/shop-icon.svg");
+}
+
+.nav__link_type_profile {
+  background-image: url("../../media/profile-icon.svg");
+}

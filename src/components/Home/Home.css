@@ -1,0 +1,101 @@
+.home__text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.home__heading-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home__heading-text {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #5a2594;
+  text-align: left;
+}
+
+.home__user-name {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 125%;
+  color: #1D2027;
+}
+
+.home__user-photo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.home__card-user {
+  margin-top: 33px;
+  background: radial-gradient(82.23% 108.11% at 101.39% 101.07%, #8913c9 0%, #c59fff 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  border-radius: 20px;
+  display: flex;
+  padding: 5%;
+}
+
+.home__gk-logo {
+  width: 80px;
+}
+
+.home__company-name {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 125%;
+  color: white;
+}
+
+.home__user-fio {
+  padding: 0;
+  margin: 0 0 11px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 125%;
+  color: #1D2027;
+  text-align: left;
+}
+
+.home__card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.home__user-post {
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #1D2027;
+}
+
+.home__user-department {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 150%;
+  color: #1D2027;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
