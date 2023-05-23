@@ -1,21 +1,31 @@
 {
   "files": {
-    "main.css": "/ecoptica-id-frontend/static/css/main.3c4ebef8.css",
-    "main.js": "/ecoptica-id-frontend/static/js/main.64b14296.js",
+    "main.css": "/ecoptica-id-frontend/static/css/main.ef88959e.css",
+    "main.js": "/ecoptica-id-frontend/static/js/main.394040ac.js",
     "static/js/787.28cb0dcd.chunk.js": "/ecoptica-id-frontend/static/js/787.28cb0dcd.chunk.js",
     "static/media/qr-code-table-min.jpg": "/ecoptica-id-frontend/static/media/qr-code-table-min.e281dcc169c1bfb53035.jpg",
     "static/media/computer.jpg": "/ecoptica-id-frontend/static/media/computer.28cd54515220edac0a8f.jpg",
     "static/media/id.jpg": "/ecoptica-id-frontend/static/media/id.ee421ef083e2430fa892.jpg",
     "service-worker.js": "/ecoptica-id-frontend/service-worker.js",
     "static/media/preview-back.jpeg": "/ecoptica-id-frontend/static/media/preview-back.a9dc82b0b7881d89f105.jpeg",
-    "static/media/puff.svg": "/ecoptica-id-frontend/static/media/puff.be69e7a9d85109e7dfa9.svg",
+    "static/media/profile-image.jpeg": "/ecoptica-id-frontend/static/media/profile-image.d70afed7c4ce345ada5f.jpeg",
+    "static/media/gk-logo.svg": "/ecoptica-id-frontend/static/media/gk-logo.3619dc8e287872ef380285e39d51885f.svg",
+    "static/media/shop-card.svg": "/ecoptica-id-frontend/static/media/shop-card.fcea9cb20a6e8f0743980a9e8710b3be.svg",
+    "static/media/puff-black.svg": "/ecoptica-id-frontend/static/media/puff-black.463194ec596f0a1bf4e20719461ebb14.svg",
+    "static/media/puff.svg": "/ecoptica-id-frontend/static/media/puff.42c79b115777849448a2.svg",
+    "static/media/qr-border.svg": "/ecoptica-id-frontend/static/media/qr-border.ea262c96d8ae80f3d61f.svg",
+    "static/media/home-icon.svg": "/ecoptica-id-frontend/static/media/home-icon.fb59371e1b08b19f2b69.svg",
+    "static/media/metrics-icon.svg": "/ecoptica-id-frontend/static/media/metrics-icon.44ad04bad085168d40ce.svg",
     "index.html": "/ecoptica-id-frontend/index.html",
-    "main.3c4ebef8.css.map": "/ecoptica-id-frontend/static/css/main.3c4ebef8.css.map",
-    "main.64b14296.js.map": "/ecoptica-id-frontend/static/js/main.64b14296.js.map",
+    "static/media/profile-icon.svg": "/ecoptica-id-frontend/static/media/profile-icon.068493048dfc088a7053.svg",
+    "static/media/shop-icon.svg": "/ecoptica-id-frontend/static/media/shop-icon.b75b1badbde5f31980b3.svg",
+    "static/media/back-btn.svg": "/ecoptica-id-frontend/static/media/back-btn.a29bb8bd7da0ba0aa66b.svg",
+    "main.ef88959e.css.map": "/ecoptica-id-frontend/static/css/main.ef88959e.css.map",
+    "main.394040ac.js.map": "/ecoptica-id-frontend/static/js/main.394040ac.js.map",
     "787.28cb0dcd.chunk.js.map": "/ecoptica-id-frontend/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c4ebef8.css",
-    "static/js/main.64b14296.js"
+    "static/css/main.ef88959e.css",
+    "static/js/main.394040ac.js"
   ]
 }
