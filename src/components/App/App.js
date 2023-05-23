@@ -6,6 +6,7 @@ import "./App.css";
 import Main from "../Main/Main";
 import Home from "../Home/Home";
 import Shop from "../Shop/Shop";
+import Profile from "../Profile/Profile";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -23,7 +24,8 @@ function App() {
       {/* <Main>
         <Home />
       </Main> */}
-      <Shop />
+      {/* <Shop /> */}
+      <Profile />
     </div>
   );
 }
