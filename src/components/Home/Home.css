@@ -99,3 +99,85 @@
   padding: 0;
   margin: 0;
 }
+
+.home__notifications {
+  width: 100%;
+}
+
+.home__notifications-heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 125%;
+  color: #1D2027;
+  text-align: left;
+}
+
+.home__bonus {
+  margin-top: 15px;
+  width: 100%;
+  left: 20px;
+  top: 415px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.015em;
+  color: white;
+background: radial-gradient(141.28% 64.17% at 26.57% 19.75%, #494B4E 0%, #1D2027 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+border-radius: 16px;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home__notifications-priority {
+  width: 72px;
+  height: 72px;
+  background: #EFF1F3;
+  border-radius: 12px;
+}
+
+.home__notifications-item {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+}
+
+.home__notifications-container {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  width: 100%;
+  max-height: 260px;
+  list-style: none;
+  padding: 0;
+  overflow: scroll;
+}
+
+.home__notifications-text {
+  flex-grow: 1;
+  padding-left: 26px;
+}
+
+.home__notifications-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 125%;
+  color: #1D2027;
+  margin: 0 0 8px 0;
+  text-align: left;
+}
+
+.home__notifications-date {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 150%;
+  color: #989898;
+  text-align: left;
+}

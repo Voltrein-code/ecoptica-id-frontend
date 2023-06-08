@@ -39,3 +39,19 @@
 .nav__link_type_profile {
   background-image: url("../../media/profile-icon.svg");
 }
+
+.nav__link_type_home {
+  background-image: url("../../media/home-icon-active.svg");
+}
+
+/* .nav__link_type_metrics {
+  background-image: url("../../media/metrics-icon-active.svg");
+}
+
+.nav__link_type_shop {
+  background-image: url("../../media/shop-icon-active.svg");
+}
+
+.nav__link_type_profile {
+  background-image: url("../../media/profile-icon-active.svg");
+} */

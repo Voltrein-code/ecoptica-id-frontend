@@ -26,11 +26,11 @@ function App() {
         ></meta>
       </Helmet>
       {/* <Preview loading={loading} setLoading={setLoading} /> */}
-      <Auth loading={loading} setLoading={setLoading} />
+      {/* <Auth loading={loading} setLoading={setLoading} /> */}
       {/* <Main>
         <Home />
       </Main> */}
-      {/* <Shop /> */}
+      <Shop />
       {/* <Profile /> */}
     </div>
   );
