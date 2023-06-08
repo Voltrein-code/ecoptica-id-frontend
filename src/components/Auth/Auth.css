@@ -1,0 +1,116 @@
+.auth {
+  display: flex;
+  height: 100vh;
+  content: '';
+  flex-direction: column;
+  position: relative;
+  background-color: transparent;
+  background: url('../../media/preview-back.jpeg');
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+}
+
+.auth__container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.auth__form {
+  margin: auto;
+}
+
+.auth__input {
+  background: #EFF1F3;
+  border-radius: 20px;
+  height: 40px;
+  width: 100%;
+  margin: 0 0 20px 0;
+  border: 1px solid #5a2594;
+  box-shadow: 0px 0px 0px 2px #5a2594;
+  border-radius: 36px;
+  background-color: #1E1E1E;
+  color: #A9AFB9;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.auth__input:focus {
+  outline: 4px solid #5a2594;
+}
+
+.auth__heading {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #D4CCB6;
+  margin: 0 0 5px 0;
+}
+
+.auth__logo {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  width: 115px;
+  align-self: left;
+}
+
+.auth__text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #AFB6C2;
+  margin: 0 0 27px 0;
+}
+
+.auth__label {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #AFB6C2;
+  margin: 0 0 5px 0;
+  text-align: left;
+}
+
+.auth__button {
+  border: 0;
+  background-color: transparent;
+  color: white;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.auth__button_type_border {
+  width: 100%;
+  height: 51px;
+  left: 20px;
+  top: 415px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+  color: white;
+  background: radial-gradient(82.23% 108.11% at 101.39% 101.07%, #322596 0%, #5a2594 100%);
+  border-radius: 36px;
+  border: none;
+}
+
+.auth__button_type_noborder {
+  margin-top: 14px;
+  margin-bottom: 20px;
+}
+
+.auth__span {
+  font-weight: 900;
+}
