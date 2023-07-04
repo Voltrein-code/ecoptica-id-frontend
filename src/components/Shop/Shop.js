@@ -1,10 +1,11 @@
 /* eslint-disable import/no-extraneous-dependencies */
-import React, { useState } from "react";
+import React, { useState, useReducer, useEffect } from "react";
 import { QRCodeSVG } from "qrcode.react";
-
+import BarcodeScannerComponent from "react-qr-barcode-scanner";
 import "./Shop.css";
 
 import Countdown from "react-countdown";
+import { Link, useNavigate, useNavigation } from "react-router-dom";
 import preloaderSVG from "../../media/puff-black.svg";
 import shopCard from "../../media/shop-card.svg";
 
@@ -14,6 +15,7 @@ import creditIcon from "../../media/alt-minus-frame-svgrepo-com.svg";
 export default function Shop() {
   const [cardShow, setCardShow] = useState(false);
   const [cardLoading, setCardLoading] = useState(false);
+  const [scannerShow, setScannerShow] = useState(false);
 
   const cardLoadingHandler = () => {
     setCardLoading(true);
@@ -21,6 +23,18 @@ export default function Shop() {
       setCardShow(true);
       setCardLoading(false);
     }, 3000);
+  };
+
+  useEffect(() => {
+    setScannerShow(false);
+  }, []);
+
+  useEffect(() => {
+    scannerShow === false && window.location.reload();
+  }, [scannerShow]);
+
+  const handleShowScanner = () => {
+    setScannerShow(true);
   };
 
   const Completionist = () => {
@@ -41,24 +55,57 @@ export default function Shop() {
     );
   };
 
+  const renderCard = () => {
+    if (cardShow === false) {
+      return (
+        <img
+          className="shop__image"
+          alt="Иконка"
+          src={cardLoading === false ? shopCard : preloaderSVG}
+        ></img>
+      );
+    }
+    return (
+      <QRCodeSVG
+        size={212}
+        value="46020080663921620366659511819655767220348495277"
+      />
+    );
+  };
+
+  const [stopStream, setStopStream] = useState(false);
+  // ...
+  const dismissQrReader = () => {
+    // Stop the QR Reader stream (fixes issue where the browser freezes when closing the modal) and then dismiss the modal one tick later
+    setStopStream(true);
+    setTimeout(() => console.log("123"), 0);
+  };
+
+  const navigate = useNavigate();
+
   return (
     <div className="shop">
       <div className="shop__header">
         <button className="shop__back-btn"></button>
         <h2 className="shop__heading">Карта лояльности</h2>
       </div>
+
+      <button onClick={handleShowScanner}>Оплатить</button>
       <div className="shop__card-space">
         <div className="shop__card-container">
-          {cardShow === false ? (
-            <img
-              className="shop__image"
-              alt="Иконка"
-              src={cardLoading === false ? shopCard : preloaderSVG}
-            ></img>
+          {scannerShow === false ? (
+            renderCard()
           ) : (
-            <QRCodeSVG
-              size={212}
-              value="46020080663921620366659511819655767220348495277"
+            <BarcodeScannerComponent
+              width={212}
+              height={212}
+              stopStream={stopStream}
+              onUpdate={(err, result) => {
+                if (result) {
+                  window.location.href = result.text;
+                  setScannerShow(false);
+                }
+              }}
             />
           )}
         </div>
