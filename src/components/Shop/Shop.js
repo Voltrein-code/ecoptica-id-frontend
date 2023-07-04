@@ -16,6 +16,7 @@ export default function Shop() {
   const [cardShow, setCardShow] = useState(false);
   const [cardLoading, setCardLoading] = useState(false);
   const [scannerShow, setScannerShow] = useState(false);
+  const [needReload, setNeedReload] = useState(false);
 
   const cardLoadingHandler = () => {
     setCardLoading(true);
@@ -30,8 +31,8 @@ export default function Shop() {
   }, []);
 
   useEffect(() => {
-    scannerShow === false && window.location.reload();
-  }, [scannerShow]);
+    needReload === true && window.location.reload();
+  }, [needReload]);
 
   const handleShowScanner = () => {
     setScannerShow(true);
