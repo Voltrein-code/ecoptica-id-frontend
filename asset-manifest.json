@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ecoptica-id-frontend/static/css/main.ef88959e.css",
-    "main.js": "/ecoptica-id-frontend/static/js/main.394040ac.js",
+    "main.css": "/ecoptica-id-frontend/static/css/main.7f1d6fd7.css",
+    "main.js": "/ecoptica-id-frontend/static/js/main.08c93b20.js",
     "static/js/787.28cb0dcd.chunk.js": "/ecoptica-id-frontend/static/js/787.28cb0dcd.chunk.js",
     "static/media/qr-code-table-min.jpg": "/ecoptica-id-frontend/static/media/qr-code-table-min.e281dcc169c1bfb53035.jpg",
     "static/media/computer.jpg": "/ecoptica-id-frontend/static/media/computer.28cd54515220edac0a8f.jpg",
@@ -14,18 +14,24 @@
     "static/media/puff-black.svg": "/ecoptica-id-frontend/static/media/puff-black.463194ec596f0a1bf4e20719461ebb14.svg",
     "static/media/puff.svg": "/ecoptica-id-frontend/static/media/puff.42c79b115777849448a2.svg",
     "static/media/qr-border.svg": "/ecoptica-id-frontend/static/media/qr-border.ea262c96d8ae80f3d61f.svg",
+    "static/media/high-priority-svgrepo-com.svg": "/ecoptica-id-frontend/static/media/high-priority-svgrepo-com.082d0165634a949b75e39d8313ef3381.svg",
+    "static/media/home-icon-active.svg": "/ecoptica-id-frontend/static/media/home-icon-active.2cc8f6e7026ec88e1f69.svg",
+    "static/media/medium-priority-svgrepo-com.svg": "/ecoptica-id-frontend/static/media/medium-priority-svgrepo-com.a3a721b9c8fdea9c9c35ed53a049f70c.svg",
     "static/media/home-icon.svg": "/ecoptica-id-frontend/static/media/home-icon.fb59371e1b08b19f2b69.svg",
+    "static/media/alt-plus-frame-svgrepo-com.svg": "/ecoptica-id-frontend/static/media/alt-plus-frame-svgrepo-com.0e3cca309715c4f040e4bb8b64d4e10b.svg",
+    "static/media/alt-minus-frame-svgrepo-com.svg": "/ecoptica-id-frontend/static/media/alt-minus-frame-svgrepo-com.d2ef14717ca58388800e40a14b37dd57.svg",
     "static/media/metrics-icon.svg": "/ecoptica-id-frontend/static/media/metrics-icon.44ad04bad085168d40ce.svg",
     "index.html": "/ecoptica-id-frontend/index.html",
+    "static/media/low-priority-svgrepo-com.svg": "/ecoptica-id-frontend/static/media/low-priority-svgrepo-com.f98bb639f3ed1b0633272ab6624109e1.svg",
     "static/media/profile-icon.svg": "/ecoptica-id-frontend/static/media/profile-icon.068493048dfc088a7053.svg",
     "static/media/shop-icon.svg": "/ecoptica-id-frontend/static/media/shop-icon.b75b1badbde5f31980b3.svg",
     "static/media/back-btn.svg": "/ecoptica-id-frontend/static/media/back-btn.a29bb8bd7da0ba0aa66b.svg",
-    "main.ef88959e.css.map": "/ecoptica-id-frontend/static/css/main.ef88959e.css.map",
-    "main.394040ac.js.map": "/ecoptica-id-frontend/static/js/main.394040ac.js.map",
+    "main.7f1d6fd7.css.map": "/ecoptica-id-frontend/static/css/main.7f1d6fd7.css.map",
+    "main.08c93b20.js.map": "/ecoptica-id-frontend/static/js/main.08c93b20.js.map",
     "787.28cb0dcd.chunk.js.map": "/ecoptica-id-frontend/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ef88959e.css",
-    "static/js/main.394040ac.js"
+    "static/css/main.7f1d6fd7.css",
+    "static/js/main.08c93b20.js"
   ]
 }
