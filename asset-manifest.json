@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ecoptica-id-frontend/static/css/main.5bc15e11.css",
+    "main.css": "/ecoptica-id-frontend/static/css/main.502bfdc3.css",
     "main.js": "/ecoptica-id-frontend/static/js/main.4759a1ea.js",
     "static/js/787.28cb0dcd.chunk.js": "/ecoptica-id-frontend/static/js/787.28cb0dcd.chunk.js",
     "static/media/qr-code-table-min.jpg": "/ecoptica-id-frontend/static/media/qr-code-table-min.e281dcc169c1bfb53035.jpg",
@@ -26,12 +26,12 @@
     "static/media/profile-icon.svg": "/ecoptica-id-frontend/static/media/profile-icon.068493048dfc088a7053.svg",
     "static/media/shop-icon.svg": "/ecoptica-id-frontend/static/media/shop-icon.b75b1badbde5f31980b3.svg",
     "static/media/back-btn.svg": "/ecoptica-id-frontend/static/media/back-btn.a29bb8bd7da0ba0aa66b.svg",
-    "main.5bc15e11.css.map": "/ecoptica-id-frontend/static/css/main.5bc15e11.css.map",
+    "main.502bfdc3.css.map": "/ecoptica-id-frontend/static/css/main.502bfdc3.css.map",
     "main.4759a1ea.js.map": "/ecoptica-id-frontend/static/js/main.4759a1ea.js.map",
     "787.28cb0dcd.chunk.js.map": "/ecoptica-id-frontend/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5bc15e11.css",
+    "static/css/main.502bfdc3.css",
     "static/js/main.4759a1ea.js"
   ]
 }
